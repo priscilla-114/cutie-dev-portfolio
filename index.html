@@ -5,12 +5,12 @@
     <title>priscilla codes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif" />
-    <link href="assets\css\cssmenu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets\css\cssmenu.css" />
     <style>
-        body {
+      body {
             margin:0;
-            background:rgba(0,0,0,1);
-        }
+            background:#ffe3b3;
+      }
         #menuDemo { text-align:center; padding:30px 8px; }
     </style>
 </head>
@@ -32,8 +32,8 @@
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="https://github.com/priscilla-114/">GitHub</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets\downloads\download.php">Resume</a></li>
+        <li><a href="#contact-me">Contact</a></li>
     </ul>
 </div>
 <script>
@@ -55,17 +55,86 @@
 </div>
 
 <!-- hero/jumbotron -->
-<section class="hero">
-  <div class="hero-cta">
-    <h2>Dunno What I'm Going to Write Here</h2>
-    <p>
-    Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer 
-    wound of. Called square an in afraid direct. Resolution diminution conviction so mr at unpleasing simplicity no.
-    No it as breakfast up conveying earnestly immediate principle. Him son disposed produced humoured overcame she 
-    bachelor improved. Studied however out wishing but inhabit fortune windows.
-    </p>
+<section class="hero"
+<div class="hero-cta">
+  <div class="Introduction">
+  <h2>Dunno What I'm Going to Write Here</h2>
+  <p>
+  Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer 
+  wound of. Called square an in afraid direct. Resolution diminution conviction so mr at unpleasing simplicity no.
+  No it as breakfast up conveying earnestly immediate principle. Him son disposed produced humoured overcame she 
+  bachelor improved. Studied however out wishing but inhabit fortune windows. 
+  </p>
+</div>
+</section>
+
+ <!-- "what we do" section -->
+ <section id="about-me" class="intro">
+  <div class="flex-row">
+  <h2 class="section-title primary-border">About Me</h2>
+  </div>    
+  <div class="flex-row">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sint expedita illum quae a nisi recusandae eaque tenetur, 
+    delectus natus veniam repellendus. Modi nam reprehenderit aut illo earum tempore eius?
+  </p>
   </div>
 </section>
+
+<section id="portfolio" class="steps">
+  <div class="flex-row">
+  <h2 class="section-title secondary-border">Portfolio</h2>
+  </div>
+    <div>
+      <div class="step">
+      <h3>Step 1:</h3>
+      <div class="step-info">
+      <div class="step-img">
+        <img src="assets/images/step-1.svg" alt="" />
+      </div>
+    <div class="step-text">
+    <h4>Fill Out the Form Above.</h4>
+    <p>You're already here, so why not?</p>
+    </div>
+  </div>
+</div>
+
+<!-- "reach out" section -->
+<section id="contact-me" class="contact"> 
+  <div class="flex-row">
+  <h2 class="section-title secondary-border">Reach Out</h2>
+  </div>
+  
+  <div class="contact-info">
+    <div>
+      <p>
+        Any questions or concerns before signing up?
+      <br/>
+        Let us know and we'll be happy to talk to you!
+      </p>
+
+  <div class="contact-form">
+    <h3>Contact Me</h3>
+    <form>
+      <label for="contact-name">Your Name</label>
+      <input type="text" id="contact-name" placeholder="Your Name" />
+
+      <label for="contact-message">Message</label>
+      <textarea id="contact-message" placeholder="Message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+  <!-- footer -->
+  <footer>
+    <h2>❤️ Made with love by Priscilla.</h2>
+    <div>
+      &copy; 2022 What The Heckie, Inc.
+    </div>
+  </footer>
+</body>
 
 </body>
 </html>
