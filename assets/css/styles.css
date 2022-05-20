@@ -325,28 +325,7 @@ section {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-
-  footer h2, footer div {
+  .footer h2, footer div {
     text-align: center;
     width: 100%;
   }
@@ -425,7 +404,7 @@ section {
 
 /* generated navigation using menucool.com */
 
-  
+
 #cssmenu
 {
     width:auto;
@@ -749,5 +728,4 @@ section {
 #cssmenu.active li:nth-of-type(2) a { animation: topItemAnimation 0.9s cubic-bezier(.16,.84,.44,1) 0.75s backwards;}
 #cssmenu.active li:nth-of-type(3) a { animation: topItemAnimation 0.9s cubic-bezier(.16,.84,.44,1) 0.6s backwards;}
 #cssmenu.active li:nth-of-type(4) a { animation: topItemAnimation 0.9s cubic-bezier(.16,.84,.44,1) 0.45s backwards;}
-#cssmenu.active li:nth-of-type(5) a { animation: topItemAnimation 0.9s cubic-bezier(.16,.84,.44,1) 0.3s backwards;}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { #cssmenu.active li a{animation:none!important;}}
-
+#cssmenu.active li:nth-of-type(5) a { animation: topItemAnimation 0.9s cubic-bezier(.16,.84,.44,1) 0.3s backwards;}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { #cssmenu.active li a{animation:none!important;} }
