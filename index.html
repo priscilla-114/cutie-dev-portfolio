@@ -4,20 +4,26 @@
   <meta charset="UTF-8" />
     <title>priscilla codes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets\images\favicon.ico" />
+    <!-- icons  -->
+    <script src="https://kit.fontawesome.com/f62463cf02.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif" />
+    <!-- core css-->
     <link rel="stylesheet" href="assets\css\cssmenu.css" />
     <style>
       body {
             margin:0;
             background:#ffe3b3;
       }
-        #menuDemo { text-align:center; padding:30px 8px; }
+        #menuDemo { text-align:center; padding:10px 8px; }
     </style>
 </head>
 <body>
 <div id="menuDemo">
 
-<!--start navigation-->
+<!-- navigation bar generated from cssMenu -->
 <div class="menu-icon-wrapper">
 	<div class="menu-icon" onclick="toggleCssMenu(this)">
 		<div class="three-line">
@@ -41,86 +47,174 @@
         var cssmenu = document.getElementById('cssmenu');
         if (icon.className.indexOf('active') == -1) {
             icon.className = 'menu-icon active';
-			cssmenu.style.display = "block";
-			setTimeout(function(){cssmenu.className = 'active';},0);            
+			      cssmenu.style.display = "block";
+			      setTimeout(function(){cssmenu.className = 'active';},0);            
         }
         else {
             icon.className = 'menu-icon';
-			cssmenu.className = '';
-			setTimeout(function(){cssmenu.style.display = "none";},411); 
+			      cssmenu.className = '';
+			      setTimeout(function(){cssmenu.style.display = "none";},411); 
         }
     }
 </script>
-<!--end CssMenu-->
 </div>
+<!-- end cssmenu -->
 
 <!-- hero/jumbotron -->
-<section class="hero"
-<div class="hero-cta">
-  <div class="Introduction">
-  <h2>Dunno What I'm Going to Write Here</h2>
-  <p>
-  Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer 
-  wound of. Called square an in afraid direct. Resolution diminution conviction so mr at unpleasing simplicity no.
-  No it as breakfast up conveying earnestly immediate principle. Him son disposed produced humoured overcame she 
-  bachelor improved. Studied however out wishing but inhabit fortune windows. 
-  </p>
-</div>
-</section>
+<section class="hero">
+  <div class="hero-cta">
+    <h2>Fancy seeing you here!</h2>
+    <p>
+      Here I am writing about stuff and you are reading the things I write. Huzzah!
+    </p>
+  </div>
+  </section>
+<!-- end hero -->
 
- <!-- "what we do" section -->
+
+ <!-- "about me" section -->
  <section id="about-me" class="intro">
   <div class="flex-row">
   <h2 class="section-title primary-border">About Me</h2>
-  </div>    
+  </div> 
+
   <div class="flex-row">
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sint expedita illum quae a nisi recusandae eaque tenetur, 
-    delectus natus veniam repellendus. Modi nam reprehenderit aut illo earum tempore eius?
+    delectus natus veniam repellendus. Modi nam reprehenderit aut illo earum tempore eius? 
+  </br></br>
+  ✿
   </p>
   </div>
 </section>
 
-<section id="portfolio" class="steps">
+<!-- "portfolio" section  -->
+<section id="portfolio" class="works">
   <div class="flex-row">
   <h2 class="section-title secondary-border">Portfolio</h2>
   </div>
     <div>
-      <div class="step">
-      <h3>Step 1:</h3>
-      <div class="step-info">
-      <div class="step-img">
-        <img src="assets/images/step-1.svg" alt="" />
+      <div class="work">
+      <h3>WIPS:</h3>
+      <div class="work-info">
+      <div class="work-img">
+        <img src="assets\images\work in progress.png" alt="" />
       </div>
-    <div class="step-text">
-    <h4>Fill Out the Form Above.</h4>
-    <p>You're already here, so why not?</p>
+    <div class="work-text">
+    <h4>Projects & Things</h4>
+    <p>Everything is subject to change.</p>
     </div>
   </div>
 </div>
 
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="assets\images\5591317.jpg" alt="" style="width:100%">
+          <h3>
+              <a href="#">Howdy Doo</a>
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat. 
+            </br></br>
+            ✿
+          </p>
+
+
+
+      </div>
+  </div>
+   
+  <div class="column">
+    <div class="content">
+      <img src="assets\images\5591317.jpg" alt="" style="width:100%">
+      <h3>
+              <a href="#">How are You?</a>
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat. 
+            </br></br>
+            ✿
+          </p>
+
+
+
+      </div>
+  </div>
+   
+  <div class="column">
+      <div class="content">
+          <img src="assets\images\5591317.jpg" alt="" style="width:100%">
+          <h3>
+              <a href="#">Crisis Averted</a>
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat. 
+            </br></br>
+            ✿
+          </p>
+
+
+
+      </div>
+  </div>
+   
+  <div class="column">
+    <div class="content">
+          <img src= "assets\images\5591317.jpg" alt="" style="width:100%">
+          <h3>
+            <a href="#">Haven't Deserted</a>
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat. 
+            </br></br>
+            ✿
+          </p>
+      </div>
+    </div>
+</div>
+</div>
+
+
+
 <!-- "reach out" section -->
 <section id="contact-me" class="contact"> 
   <div class="flex-row">
-  <h2 class="section-title secondary-border">Reach Out</h2>
+  <h2 class="section-title secondary-border">Where to Find Me</h2>
   </div>
   
   <div class="contact-info">
     <div>
       <p>
-        Any questions or concerns before signing up?
-      <br/>
-        Let us know and we'll be happy to talk to you!
+        <a href="#"><i class="fab fa-fw fa-facebook fa-5x"></i></a>
+        <a href="#"><i class="fab fa-fw fa-twitter fa-5x"></i></a>
+        <a href="#"><i class="fab fa-fw fa-linkedin-in fa-5x"></i></a>
+      </p>
+      <p>
+        Love to hear from you! Feel free to fill out the form 
+        and I'll get back to you ASAP.
       </p>
 
   <div class="contact-form">
     <h3>Contact Me</h3>
     <form>
-      <label for="contact-name">Your Name</label>
-      <input type="text" id="contact-name" placeholder="Your Name" />
+      <label for="contact-name">Full name</label>
+      <input type="text" id="contact-name" placeholder="Your name" />
+
+      <label for="email">Email address</label>
+      <input type="email" id="email" placeholder="Your email address" />
 
       <label for="contact-message">Message</label>
-      <textarea id="contact-message" placeholder="Message"></textarea>
+      <textarea id="contact-message" placeholder="Message">
+      </textarea>
 
       <button type="submit">Submit</button>
     </form>
@@ -128,13 +222,13 @@
 </section>
 
   <!-- footer -->
+
   <footer>
-    <h2>❤️ Made with love by Priscilla.</h2>
+    <h2>Tried my Best</h2>
     <div>
       &copy; 2022 What The Heckie, Inc.
     </div>
   </footer>
 </body>
-
 </body>
 </html>
